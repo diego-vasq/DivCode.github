@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http.equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <header>
+
+        <div class="menu container"> 
+            <img class="logo-1" src="imagenes/logo.svg" alt="">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="imagenes/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="https://www.canva.com/design/DAGUQadkSR0/hgXc-TRUOy-CzfRL07TGXQ/view?embed">Servicios</a></li>
+                        <li><a href="https://www.canva.com/design/DAGUWD5THnI/3znWYkLkq6AEvAJw8x-eGQ/view?embed">Productos</a></li>
+                    </ul>
+                </div>
+                <img class="logo-2" src="imagenes/logo.svg" alt="">
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="#">Horario</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/profile.php?id=61567212968445&locale=es_LA">
+                            <div class="social">
+                                <img src="imagenes/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://x.com/FDivCode">
+                            <div class="social">
+                                <img src="imagenes/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.instagram.com/food.divcode18/">
+                            <div class="social">
+                                <img src="imagenes/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+        <div class="header-content container">
+        
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+        
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Hamburguesa</h1>
+                                <p>
+                                    Nuestra hamburguesa gourmet está hecha con carne de res 100% fresca y jugosa, a la parrilla al punto perfecto para resaltar su sabor. Acompañada de queso cheddar derretido, crujiente tocino ahumado, lechuga fresca, rodajas de tomate maduro y pepinillos, todo servido en un pan brioche suave y tostado.
+                                </p>
+                                <div class="botones">
+                                    <a href="https://w.app/gwztj6" class="btn-1">Comprar</a>
+                                    <a href="https://www.canva.com/design/DAGUWD5THnI/3znWYkLkq6AEvAJw8x-eGQ/view?embed" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/slider1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Sandwich</h1>
+                                <p>
+                                    Es una deliciosa combinación de sabores y texturas que deleitará tus sentidos. Consiste en un pan crujiente, perfectamente dorado, que envuelve una jugosa y tierna pechuga de pollo a la parrilla. A esto se le suma una generosa porción de guacamole cremo
+                                </p>
+                                <div class="botones">
+                                    <a href="https://w.app/gwztj6" class="btn-1">Comprar</a>
+                                    <a href="https://www.canva.com/design/DAGUWD5THnI/3znWYkLkq6AEvAJw8x-eGQ/view?embed" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/slider2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Hamburguesa 2</h1>
+                                <p>
+                                    Disfruta de 200g de cerdo desmenuzado, bañado en una salsa BBQ ahumada que resalta los sabores. Se sirve en un suave pan de papa, con rodajas de pepinillo y cebolla roja, creando un contraste perfecto. La ensalada de col fresca aporta una textura crujiente y un toque de frescura. Acompañada de aros de cebolla fritos
+                                </p>
+                                <div class="botones">
+                                    <a href="https://w.app/gwztj6" class="btn-1">Comprar</a>
+                                    <a href="https://www.canva.com/design/DAGUWD5THnI/3znWYkLkq6AEvAJw8x-eGQ/view?embed" class="btn-1">Menu</a>
+                                </div>
+                            </div>
+                            <div class="slider-img">
+                                <img src="imagenes/slider3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        
+        </div>
+        
+    </header>
+        
+        
+        
+        <main class="products">
+            <div class="tabs container">
+        
+                <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+                <label for="tab1">Hamburguesa</label>
+                <div class="tab">
+                    <div class="swiper mySwiper-2" id="swiper1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <h4>Nuevo</h4>
+                                        <img src="imagenes/food1.png" alt="">
+                                    </div>
+                                    <div class="product-txt">
+                                        <h4>HAMBURGUESA</h4>
+                                        <p>Calidad Premium</p>
+                                        <span class="price">$30.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <h4>Nuevo</h4>
+                                        <img src="imagenes/food2.png" alt="">
+                                    </div>
+                                    <div class="product-txt">
+                                        <h4>SANDWICH 1</h4>
+                                        <p>Calidad Premium</p>
+                                        <span class="price">$28.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <h4>Nuevo</h4>
+                                        <img src="imagenes/food3.png" alt="">
+                                    </div>
+                                    <div class="product-txt">
+                                        <h4>SANDWICH 2</h4>
+                                        <p>Calidad Premium</p>
+                                        <span class="price">$26.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+                
+        
+                <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+                <label for="tab2">Burritos</label>
+                <div class="tab">
+                    <div class="swiper mySwiper-2" id="swiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <h4>Nuevo</h4>
+                                        <img src="imagenes/food4.png" alt="">
+                                    </div>
+                                    <div class="product-txt">
+                                        <h4>BURRITO 1</h4>
+                                        <p>Calidad Premium</p>
+                                        <span class="price">$25.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <h4>Nuevo</h4>
+                                        <img src="imagenes/food5.png" alt="">
+                                    </div>
+                                    <div class="product-txt">
+                                        <h4>BURRITO 2</h4>
+                                        <p>Calidad Premium</p>
+                                        <span class="price">$20.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <h4>Nuevo</h4>
+                                        <img src="imagenes/food6.png" alt="">
+                                    </div>
+                                    <div class="product-txt">
+                                        <h4>BURRITO 3</h4>
+                                        <p>Calidad Premium</p>
+                                        <span class="price">$23.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+        
+                
+                <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+                <label for="tab3">Variedad</label>
+                <div class="tab">
+                    <div class="swiper mySwiper-2" id="swiper3">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <h4>Nuevo</h4>
+                                        <img src="imagenes/food7.png" alt="">
+                                    </div>
+                                    <div class="product-txt">
+                                        <h4>CAMARONES</h4>
+                                        <p>Calidad Premium</p>
+                                        <span class="price">$32.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <h4>Nuevo</h4>
+                                        <img src="imagenes/food8.png" alt="">
+                                    </div>
+                                    <div class="product-txt">
+                                        <h4>CHUZO</h4>
+                                        <p>Calidad Premium</p>
+                                        <span class="price">$18.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="product">
+                                    <div class="product-img">
+                                        <h4>Nuevo</h4>
+                                        <img src="imagenes/food9.png" alt="">
+                                    </div>
+                                    <div class="product-txt">
+                                        <h4>PIZZA</h4>
+                                        <p>Calidad Premium</p>
+                                        <span class="price">$8.000</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+        
+        
+            </div>
+        </main>
+        
+        <section class="info container">
+            <div class="info-img">
+                <img src="imagenes/info.png" alt="">
+            </div>
+        
+            <div class="info-txt">
+                <h2>Informacion</h2>
+                <p>Nuestro sándwich cubano de pollo está hecho con jugosa pechuga de pollo a la parrilla, acompañada de crujiente lechuga, rodajas de tomate fresco, pepinillos y queso derretido, todo servido en un pan suave y dorado. La combinación perfecta de ingredientes frescos y sabores vibrantes, ideal para una comida ligera pero llena de sabor. Cada bocado es un equilibrio entre lo tierno y lo crujiente, pensado para satisfacer todos tus antojos.</p>
+                <a href="#" class="btn-2">Mas Informacion</a>
+            </div>
+        
+        
+        </section>
+        
+        <section class="horario">
+            <div class="horario-info container">
+                <h2>Horario</h2>
+                <div class="horario-txt">
+                    <div class="txt">
+                        <h4>Direccion</h4>
+                        <p>
+                           Parque Itagui
+                        </p>
+                        <p>
+                            Parque Itagui
+                        </p>
+                    </div>
+                    <div class="txt">
+                        <h4>Horario</h4>
+                        <p>
+                           Lunes a viernes 9 am - 7 pm 
+                        </p>
+                        <p>
+                            Sabado y domingo 10am - 5 pm
+                        </p>
+                    </div>
+                    <div class="txt">
+                        <h4>Telefono</h4>
+                        <p>
+                           3104795727
+                        </p>
+                        <p>
+                            3205253410
+                        </p>
+                    </div>
+                    <div class="txt">
+                        <h4>Redes Sociales</h4>
+                        <div class="socials">
+                            <a href="https://www.facebook.com/profile.php?id=61567212968445&locale=es_LA">
+                                <div class="social">
+                                    <img src="imagenes/s1.svg" alt="">
+                                </div>
+                            </a>
+                            <a href="https://x.com/FDivCode">
+                                <div class="social">
+                                    <img src="imagenes/s2.svg" alt="">
+                                </div>
+                            </a>
+                            <a href="https://www.instagram.com/food.divcode18/">
+                                <div class="social">
+                                    <img src="imagenes/s3.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section>
+        
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24171.801032928193!2d-75.6141535!3d6.176980599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e46822e075e9cd5%3A0x6dd21cc8445c3d42!2sItag%C3%BCi%2C%20Antioquia!5e1!3m2!1ses-419!2sco!4v1729024693569!5m2!1ses-419!2sco" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        </section>
+        
+        <footer class="footer container">
+        
+            <img class="logo-2" src="imagenes/logo.svg" alt="">
+            <div class="links">
+                <h4>lorem</h4>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <h4>lorem</h4>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <h4>lorem</h4>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <h4>lorem</h4>
+            <a>
+            <a href="https://www.facebook.com/profile.php?id=61567212968445&locale=es_LA">
+                <div class="social">
+                    <img src="imagenes/s1.svg" alt="">
+                </div>
+            </a>
+            <a href="https://x.com/FDivCode">
+                <div class="social">
+                    <img src="imagenes/s2.svg" alt="">
+                </div>
+            </a>
+            <a href="https://www.instagram.com/food.divcode18/">
+                <div class="social">
+                    <img src="imagenes/s3.svg" alt="">
+                </div>
+            </div>
+            
+        </footer>
+        
+        
+        
+            <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        
+            <script src="script.js"></script>
+            
+        </body>
+        </html>
